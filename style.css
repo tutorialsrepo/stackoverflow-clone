@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: sans-serif;
+}
+
+:root {
+  --light-orange: hsl(27, 95%, 90%);
+  --dark-orange: hsl(27, 90%, 59%);
+  --light-blue: hsl(203, 85%, 77%);
+  --dark-blue: hsl(203, 89%, 48%);
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+header a:hover {
+  border-radius: 10px;
+  background-color: rgb(209, 205, 205);
+}
+
+button {
+  border-radius: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+  border-bottom: 1px solid black;
+}
+
+header .logo i {
+  color: orange;
+}
+
+header input {
+  width: 400px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+header button {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.login-btn {
+  color: #39739d;
+  background-color: #e1ecf4;
+}
+
+.signup-btn {
+  color: white;
+  background-color: #0074cc;
+}
+
+.home {
+  height: 800px;
+  margin: 40px;
+  background-color: rgb(70, 67, 67);
+}
+
+.join-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 50px;
+}
+
+.join {
+  padding: 30px;
+  max-width: 400px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.community {
+  background-color: hsl(27, 95%, 90%);
+}
+
+.join > * {
+  margin-bottom: 25px;
+}
+
+.join button {
+  color: white;
+  background-color: var(--dark-orange);
+}
+
+.join i {
+  color: var(--dark-orange);
+}
+
+.teams {
+  background-color: var(--light-blue);
+}
+
+.teams button {
+  background-color: var(--dark-blue);
+}
+
+.options {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding: 50px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+
+.info div {
+  max-width: 200px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.features div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+  max-width: 300px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.stack {
+  background-color: var(--light-orange);
+}
+
+.stack button {
+  color: white;
+  background-color: var(--dark-orange);
+}
+
+.teams {
+  background-color: var(--light-blue);
+}
+
+.teams button {
+  color: white;
+  background-color: var(--dark-blue);
+}
+
+footer {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+}
+
+.clients {
+  padding: 50px;
+  text-align: center;
+}
+
+.clients > * {
+  padding: 20px;
+}
+
+.adv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  padding: 50px;
+}
+
+.adv div {
+  max-width: 300px;
+}
+
+.feedback {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  line-height: 1.8;
+}
+
+.feedback div {
+  max-width: 300px;
+}
